@@ -1,0 +1,19 @@
+
+#left {
+	float:left;
+	border:1px solid green;
+	width:300px;
+	padding:40px;
+	
+}
+
+#right{
+	
+	border:1px solid blue;
+	width:300px;
+	margin-left:500px;
+	padding:70px;
+	
+}
+
+

@@ -1,0 +1,47 @@
+
+#parent{
+	border:1px solid black;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack:center;
+	margin: 0px auto;
+	height:400px;
+	-webkit-box-align:center;
+}
+
+#child1 {
+    color: red;  
+	border:1px solid green;
+	background: green;
+	padding:20px;
+	margin: 10px;
+	-webkit-box-flex:1;
+	height:100px;
+}
+#child2 {
+    color: red;  
+	border:1px solid green;
+	background: orange;
+	padding:20px;
+	margin: 10px;
+-webkit-box-flex:3;
+height:100px;
+	}
+#child3 {
+    color: red;  
+	border:1px solid green;
+	background: yellow;
+	padding:20px;
+	margin:10px;
+	height:100px;
+	-webkit-box-flex:3;
+}
+#child4 {
+    color: red;  
+	border:1px solid green;
+	background: grey;
+	padding:20px;
+	margin: 10px;
+	-webkit-box-flex:1;
+	height:100px;
+}

@@ -1,0 +1,39 @@
+
+<html>
+
+<head>
+<title>basictest</title>
+<script>
+		function myFunction() {
+		var x= new Array();
+		x[0]= document.getElementById('name').value;
+		x[1]= document.getElementById('lname').value;
+		x[2]= document.getElementById('email').value;
+		x[3]= document.getElementById('password').value;
+		x[4]= document.getElementById('cpassword').value;
+		
+    }
+
+</script>
+
+</head>
+<body>
+<form>
+<table border=2px align="center" >
+			         <tr> <td> Name: </td> <td> <input type="text" name="name"id="name" onkeyup="register()"  /> </td> <td> <div id="mname"> </div> </td></tr>
+			         <tr> <td> last Name: </td> <td> <input type="text" name="lname" id="lname" onkeyup="register()"  /> </td><td> <div id="mlname"></div></td></tr>
+			         <tr> <td> Email: </td> <td> <input type="text" name="email" id="email" onkeyup="register()" /> </td><td> <div id="memail"></div></td></tr>
+			         <tr> <td> Password: </td> <td> <input type="text" name="password" id="password" onkeyup="register()" /> </td><td> <div id="mpassword"></div></td></tr>
+			         <tr> <td> Confirm Password: </td> <td> <input type="text" name="cpassword" id="cpassword" onkeyup="passcheck()"  /> </td><td> <div id="mcpassword"></div></td></tr>
+			  </table>
+			  <br />
+
+</form>
+<h1 align="center"><input type="submit" value="submit" onclick="myFunction()" /></h1>
+<br />
+<h1 id="ch"> </h1>
+
+
+
+<body>
+</html>
